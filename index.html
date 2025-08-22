@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Campatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx  bx-home'  ></i>
+                <!--<span class="tooltip">Home</span>--> 
+            </li>
+            <li>
+                <i class='bxr  bx-user'  ></i> 
+                <!--<span class="tooltip">About</span>--> 
+            </li>
+            <li>
+                <i class='bxr  bx-file-detail'  ></i> 
+                <!--<span class="tooltip">Resume</span>--> 
+            </li>
+            <li>
+                <i class='bxr  bx-briefcase-alt-2'  ></i> 
+                <!--<span class="tooltip">portfolio</span>--> 
+            </li>
+            <li>
+                <i class='bxr  bx-envelope'  ></i> 
+                <!--<span class="tooltip">contact</span>--> 
+            </li>
+        </ul>
+    </nav>
+   
+    <div class="container">
+        <div class="box">
+            <section class="section home active">
+                <div class="home-info">
+                    <h3 class="hello">Hello, It's me</h3>
+                    <h1 class="font-effect-neon">MOGITH</h1>
+                    <h3>And I'm a <span class="text" ></span></h3>
+                    <p class="desc">I'm Mogith Chandrakumar, a Software Engineering undergraduate passionate about web development, AI, and building impactful tech solutions.</p>
+                    <div class="btn-sci">
+                        <a href="resume.pdf" target="_blank" style="text-decoration: none;" class="btn">Download CV</a>
+                        <div class="sci">
+                            <a href="https://github.com/Mogith-Chandrakumar">
+                                <i class='bxl  bx-github'  ></i> 
+                                <!--<span class="tooltip">Github</span>-->
+                            </a>
+                            <a href="https://www.linkedin.com/in/mogith-chandrakumar">
+                                <i class='bxl  bx-linkedin-square'  ></i> 
+                                <!--<span class="tooltip">LinkedIn</span>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="img-wrapper">
+                    <div class="img-box home-img">
+                        <img src="Images/img1.png" alt="my image" >
+                    </div>
+                </div>
+            </section>
+            <!-- about section-->
+             <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="Images/img2.png" alt="my image" >
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h2 class="title">About me</h2>
+                    <h3>SE undergraduate<span class="text"></span></h3>
+                    <p id="myParagraph" class="desc">I'm Mogith Chandrakumar, currently pursuing my degree in Software Engineering at Sabaragamuwa University of Sri Lanka. I specialize in web development and have hands-on experience with technologies like React, Flask, Python, and MySQL. I'm deeply passionate about artificial intelligence, open-source collaboration, and guiding others in their tech journey<span id="moreText" style="display: none;">
+                      As an IEEE Student Member, I actively participate in tech communities and events. Outside of coding, I enjoy exploring new tools, sharing knowledge, and continuously learning to become a well-rounded developer who creates meaningful digital experiences.</span>
+                    </p>
+                     <a href="#" id="toggleButton" class="btn" onclick="toggleMore()">view more</a>
+                </div>
+                 
+             </section> 
+             <!--ressume -->
+             <section class="section resume">
+                <h2 class="title">Resume</h2>
+                <div class="tab-box">
+                    <div class="tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item ">
+                            <h4>August 2025</h4>
+                            <h4>Frontend Developer (Intern)</h4>
+                            <h4>CodeAlpha</h4>
+                            <p>Completed a frontend development internship where I learned and applied new techniques and tools. <br>Key takeaways:</p>
+                                   <ul>
+                                    <li>Worked on responsive UI design</li>
+                                    <li>Gained hands-on experience with frontend frameworks</li>
+                                    <li>Learned version control using Git</li>
+                                    <li>Enhanced skills in HTML, CSS, JavaScript, and debugging</li>
+                                </ul>
+                        </div>
+                    </div>
+                     <div class="tab-grid resume-box skills">
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-c'  ></i>  
+                            <p>C Programing</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-python'></i>  
+                            <p>Python</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-java'  ></i>  
+                            <p>Java</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-php'  ></i>  
+                            <p>PHP</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-html5'  ></i>  
+                            <p>HTML</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-css3'  ></i>  
+                            <p>CSS</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-javascript'  ></i>  
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-flask-old'  ></i>  
+                            <p>FLASK</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-react'  ></i>  
+                            <p>REACT</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bxl  bx-my-sql'  ></i>  
+                            <p>MYSQL</p>
+                        </div>
+                    </div>
+                     <div class="tab-grid resume-box education">
+                        <div class="tab-item resume-item">
+                            <h4>Jan 2019 – Feb 2022</h4>
+                            <h4>BT/KK/Valaichenai Hindu College - National School</h4>
+                            <p>G.C.E. Advanced Level – Physical Science Stream</p>
+                               <ul>
+                                    <li>Achieved 2B and 1C passes with a Z-Score of 1.3163</li>
+                                    <li>Focused on subjects such as Physics, Chemistry, and Combined Mathematics</li>
+                                </ul>
+                        </div>
+                         <div class="tab-item resume-item">
+                            <h4>Jul 2024 – Present</h4>
+                            <h4>Sabaragamuwa University of Sri Lanka</h4>
+                            <p>BSc. (Hons) in Software Engineering</p>
+                                <ul>
+                                    <li>Currently learning Python, HTML, CSS, and JavaScript for web-based application development</li>
+                                    <li>Actively developing skills in English communication, teamwork, and collaboration</li>
+                                    <li>Strong interest in real-world software development practices and emerging technologies</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+             </section>
+           <!-- portfolio-->
+            <section class="section portfolio">
+                <h2 class="title">portfolio</h2>
+                <div class="tab-box">
+                    <div class="tab-list portfolio-list active">
+                        <h3>My work</h3>
+                    </div>
+                    <div class="tab-list portfolio-list">
+                        <h3>My service</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid portfolio-box work active">
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="Images/img3.png" alt="" >
+                            </div>
+                            <div class="work-info">
+                                <h4>Frontend Calculator project</h4>
+                                <p>A simple and responsive web calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, division, and percentage. The interface is clean and intuitive, designed for both desktop and mobile use..</p>
+                                <div class="tech-used">
+                                    <p>html,css,java</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="https://github.com/Mogith-Chandrakumar/Calculator.git">
+                                       <i class='bxl  bx-github'  ></i>
+                                       <!--<span class="tooltip">github</span>--> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-grid portfolio-box service">
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <div class="sericon">
+                                <i class='bxr  bx-code'  ></i>
+                                </div>
+                                <a href="#"><i class='bxr  bx-arrow-down-left-square'  ></i> </a>
+                            </div>
+                            <h4>web development</h4>
+                            <p>Providing professional web development solutions tailored to your business needs. From responsive websites to dynamic web applications, I build fast, user-friendly, and SEO-optimized sites that look great on all devices. Whether you need a simple portfolio or a complex platform, I deliver clean code and modern designs to help your brand stand out online</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <div class="sericon">
+                                <i class='bx  bx-grid-circle-diagonal-right'  ></i> 
+                                </div>
+                                <a href="#"><i class='bxr  bx-arrow-down-left-square'  ></i> </a>
+                            </div>
+                            <h4>Flyer Designing</h4>
+                            <p>Offering a sleek, easy-to-use web calculator designed to handle all your basic arithmetic needs—addition, subtraction, multiplication, division, and percentage calculations. Built with clean code and a responsive layout, it works flawlessly across all devices to ensure quick and accurate results anytime, anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--contact section-->
+            <section class="section contact">
+                <h2 class="title">Contact</h2>
+                <div class="contact-wrapper">
+                    <form action="" class="contact-form">
+                        <h3>Let' work together</h3>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full name" required>
+                            <input type="email"  placeholder="email address" required>
+                            <input type="text"  placeholder="phone number" required>
+                            <input type="text"  placeholder="email subject" required>
+                            <textarea name="" id="" placeholder="Your messsage" required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            
+                            <button type="submit" class="btn" ><a href="mailto:mojithkumar04@gmail.com">Send meesssage</a></button>
+                            <button type="reset" class="btn">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--home section-->
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    
+</body>
+</html>
